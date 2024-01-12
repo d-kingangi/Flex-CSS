@@ -1,0 +1,161 @@
+
+body{   
+    background-color:  hsl(232, 19%, 15%);    
+}
+
+.navbar{
+    padding: 0;
+    height: 80vh;
+    width: 70vw;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.nav-title{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.header{
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.headtext{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.subtext{
+    font-weight: light;
+}
+
+.toggle-btn{
+    display: flex;
+    margin-bottom: 2rem;
+    color:lightskyblue;
+    position: relative;
+    font-weight: 400;
+    font-size: 14px;
+   
+}
+
+.btn{
+    background-color: hsl(232, 19%, 15%);
+    border-radius: 9px;
+}
+
+.btn-label{
+    font-weight: 400;
+}
+
+.profile{
+    display: flex;   
+}
+
+.section-top{
+    display: flex;
+    justify-content: space-between;  
+}
+
+.section{
+    display: flex;
+}
+
+.social-media{ 
+    display: flex; 
+    background-color: hsl(228, 28%, 20%);
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px;
+    color: lightgray;
+    flex-direction: column;
+    justify-content: center;   
+}
+
+.social-media > div{
+    height:5vh;
+    width: 14vw;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;  
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.followers{ 
+    display: flex;
+    font-size: 14px;
+    /* font-family:; */
+    margin-top: 1.5rem;
+    justify-content: center;
+}
+
+.today{
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-weight: bold;
+    padding: 1rem;
+    margin-top:-1rem;
+    align-items: center;
+}
+
+.section-mid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-mid > div{
+    width: 16.5vw;
+    height:20vh;
+}
+
+.headtext-2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(228, 28%, 20%);
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px;
+    color: white;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 0.5rem;
+}
+
+.view{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 30px;
+}
+
